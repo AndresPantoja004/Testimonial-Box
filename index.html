@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Testimonial Box</title>
+  <script src="testimonial-box.js" defer></script>
+  <style>
+    body {
+      padding: 10px;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to right, #000000, #495e72);
+    }
+    testimonial-box {
+      transition: all 0.3s ease;
+    }
+    testimonial-box:hover {
+      transform: scale(1.05);
+      cursor: pointer;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+    .testimonial-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 20px;
+    }
+    .title {
+      text-align: center;
+      color: #fff;
+      font-size: 2em;
+      margin-bottom: 20px;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+    header {
+      background: linear-gradient(to right, #15151a, #4c668c);
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1 class="title">Opiniones de nuestros usuarios</h1>
+  </header>
+
+  <div class="testimonial-container">
+    <testimonial-box
+      avatar="https://lh3.googleusercontent.com/ogw/AF2bZyiSXs-9WGIZUFcPDFeQuAHeYcdkv_YIdOwiE80WbSmMxuo=s64-c-mo"
+      coment="Estoy muy contento con el servicio que me han brindado es muy agradable y les doy 5 estrellas"
+      resenia="5"
+      style="
+        --bg-color: #000000;
+        --text-color: #ffffff;
+        --name-color: #3e6b9c;
+        --comment-color: #dbdada;
+        --star-color: #faca2d;
+        --cite-color: #2f478a;"
+    >
+      <span slot="name">Andres Pantoja</span>
+      <span slot="insti">Universidad de las Fuerzas Armadas ESPE</span>
+       <span slot="coment">Exelente trabajo le voy a colocar 20 o tal vez 19 no se aun pero buena calificacion :)</span>
+      <cite>@adpantoja1</cite>
+    </testimonial-box>
+
+    <testimonial-box
+      avatar="https://micampus.espe.edu.ec/pluginfile.php/281159/user/icon/lambda2/f1?rev=54167497"
+      coment="Excelente experiencia y muy buen trabajo este componente le voy a dar 5 estrellas y un 20"
+      resenia="5"
+    >
+      <span slot="name">Paulo Galarza</span>
+      <span slot="insti">Universidad de las Fuerzas Armadas ESPE</span>
+       <span slot="coment">Exelente trabajo le voy a colocar 20 o tal vez 19 no se aun pero buena calificacion :)</span>
+      <cite>@plgalarza</cite>
+    </testimonial-box>
+
+    <testimonial-box
+      avatar="https://micampus.espe.edu.ec/pluginfile.php/281159/user/icon/lambda2/f1?rev=54167497"
+      coment="Excelente experiencia y muy buen trabajo este componente le voy a dar 5 estrellas y un 20"
+      resenia="4"
+    >
+      <span slot="name">Paulo Galarza</span>
+      <span slot="insti">Universidad de las Fuerzas Armadas ESPE</span>
+      <span slot="coment">Exelente trabajo le voy a colocar 20 o tal vez 19 no se aun pero buena calificacion :)</span>
+      <cite>@plgalarza</cite>
+    </testimonial-box>
+  </div>
+</body>
+</html>
