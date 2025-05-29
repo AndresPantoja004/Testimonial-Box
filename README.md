@@ -85,17 +85,17 @@ A continuación, una muestra del componente en uso:
 
 #### Vista de ejemplo:
 
-Vista general:
-![Componente en uso real](./docs/vista-general-navegador.png)
+- **Vista general:**
+    ![Componente en uso real](./docs/vista-general-navegador.png)
 
-Componente por defecto:
-![Componente por defecto](./docs/box-testimonial-datos-completos.png)
+- **Componente por defecto:**
+    ![Componente por defecto](./docs/box-testimonial-datos-completos.png)
 
-Componente datos completos:
-![Componente datos completos](./docs/box-testimonial-defecto.png)
+- **Componente datos completos:**
+    ![Componente datos completos](./docs/box-testimonial-defecto.png)
 
-Componente con estilos personalizados externos:
-![Componente con estilos personalizados](./docs/box-testimonial-styles-personalizados.png)
+- **Componente con estilos personalizados externos:**
+    ![Componente con estilos personalizados](./docs/box-testimonial-styles-personalizados.png)
 
 
 
