@@ -92,6 +92,7 @@ A continuación, una muestra del componente en uso:
     ![Componente por defecto](./docs/box-testimonial-datos-completos.png)
 
 - **Componente datos completos:**
+
     ![Componente datos completos](./docs/box-testimonial-defecto.png)
 
 - **Componente con estilos personalizados externos:**
